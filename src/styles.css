@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.login-btn,
+.logout-btn {
+  background-color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-btn {
+  color: #333;
+}
+
+.logout-btn {
+  color: #f00;
+}
+
+/* Category Filter Styles */
+.category-filter {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+
+.category-filter button {
+  background-color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.category-filter button.selected {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Product List Styles */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.product-card {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-image {
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-details {
+  padding: 10px;
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.product-price {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.product-description {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .product-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .product-list {
+    grid-template-columns: 1fr;
+  }
+
+  .category-filter {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .category-filter button {
+    margin-bottom: 10px;
+  }
+}
+
+
