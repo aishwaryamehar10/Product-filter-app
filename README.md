@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+Product Filter App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Product Filter App is a web application that displays a list of products and allows users to filter the products based on categories. It is built using React, a modern web development framework.
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+Display a list of products with their details, including name, price, and category.
 
-### `npm start`
+Filter products based on selected category.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Responsive design that works well on various screen sizes and devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Uses mock data for the products and categories.
 
-### `npm test`
+Setup and Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run the Product Filter App locally on your machine, follow these steps:
 
-### `npm run build`
+Ensure that you have Node.js installed on your computer. You can download it from the official website: Node.js.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the repository to your local machine or download the ZIP file.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Open a terminal or command prompt and navigate to the project's directory.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Install the dependencies by running the following command:
 
-### `npm run eject`
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Once the dependencies are installed, start the development server with the following command:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The app should now be running locally at http://localhost:3000. Open your web browser and visit this URL to access the app.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Project Structure
 
-## Learn More
+The project structure is organized as follows:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+src: Contains the source code for the app.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+components: Contains React components used in the app.
 
-### Code Splitting
+styles.css: Contains the styles for the app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+App.js: The main component that renders the app.
 
-### Analyzing the Bundle Size
+index.js: The entry point of the app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Credits
 
-### Making a Progressive Web App
+This app was created as an Assignment project by Aishwarya Mehar. It uses mock data for the products and categories.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributing
 
-### Advanced Configuration
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+License
 
-### Deployment
+The Product Filter App is open source and released under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to update the information and customize the README file based on your specific project.
